@@ -9,15 +9,17 @@
     <include>
       <uri>model://ground_plane</uri>
     </include>
-    <include>
+
+    <!-- 地板换为纯色的,tigao aruco码的识别能力，所以注释掉这个有纹理的地板 -->
+    <!-- <include>
       <uri>model://asphalt_plane</uri>
-    </include>
+    </include> -->
 
     <!-- 包含进来二维码的模型 -->
     <include>
       <name> aruco target </name>
         <uri>model://aruco_target</uri>
-	      <pose> 0.5 0.5 0.1 0 0 -1.5707963 </pose>
+	      <pose> 2.0 2.0 0.02 0 0 -1.5707963 </pose>
     </include>
 
     <physics name='default_physics' default='0' type='ode'>
