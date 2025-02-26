@@ -17,7 +17,7 @@
     <include>
       <name> aruco target </name>
         <uri>model://aruco_target</uri>
-	      <pose> 1.7 1.7 0.1 0 0 -1.5707963 </pose>
+	      <pose> 0.5 0.5 0.1 0 0 -1.5707963 </pose>
     </include>
 
     <physics name='default_physics' default='0' type='ode'>
